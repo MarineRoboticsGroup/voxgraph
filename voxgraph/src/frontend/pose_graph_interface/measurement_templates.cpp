@@ -1,4 +1,4 @@
-#include "voxgraph/frontend/pose_graph_interface/measurement_templates.h"
+#include "frontend/pose_graph_interface/measurement_templates.h"
 
 #include <string>
 

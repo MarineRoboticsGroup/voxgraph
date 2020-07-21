@@ -1,4 +1,5 @@
-#include "voxgraph/frontend/voxgraph_mapper.h"
+// #include "voxgraph/frontend/voxgraph_mapper.h"
+#include "frontend/voxgraph_mapper.h"
 
 #include <chrono>
 #include <memory>
@@ -13,12 +14,12 @@
 #include <sensor_msgs/Imu.h>
 #include <visualization_msgs/MarkerArray.h>
 
-#include "voxgraph/frontend/submap_collection/submap_timeline.h"
-#include "voxgraph/tools/io.h"
-#include "voxgraph/tools/ros_params.h"
-#include "voxgraph/tools/submap_registration_helper.h"
-#include "voxgraph/tools/tf_helper.h"
-#include "voxgraph/tools/threading_helper.h"
+#include "frontend/submap_collection/submap_timeline.h"
+#include "tools/io.h"
+#include "tools/ros_params.h"
+#include "tools/submap_registration_helper.h"
+#include "tools/tf_helper.h"
+#include "tools/threading_helper.h"
 
 namespace voxgraph {
 

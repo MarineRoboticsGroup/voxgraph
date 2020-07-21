@@ -7,7 +7,7 @@
 #include <minkindr_conversions/kindr_msg.h>
 #include <tf2_ros/transform_listener.h>
 
-#include "voxgraph/common.h"
+#include "common.h"
 
 namespace voxgraph {
 class TfTransformer {

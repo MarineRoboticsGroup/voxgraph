@@ -11,19 +11,19 @@
 #include <voxblox_msgs/FilePath.h>
 #include <voxgraph_msgs/LoopClosure.h>
 
-#include "voxgraph/common.h"
-#include "voxgraph/frontend/frame_names.h"
-#include "voxgraph/frontend/map_tracker/map_tracker.h"
-#include "voxgraph/frontend/measurement_processors/gps_processor.h"
-#include "voxgraph/frontend/measurement_processors/pointcloud_integrator.h"
-#include "voxgraph/frontend/pose_graph_interface/pose_graph_interface.h"
-#include "voxgraph/frontend/submap_collection/voxgraph_submap_collection.h"
-#include "voxgraph/tools/data_servers/loop_closure_edge_server.h"
-#include "voxgraph/tools/data_servers/projected_map_server.h"
-#include "voxgraph/tools/data_servers/submap_server.h"
-#include "voxgraph/tools/rosbag_helper.h"
-#include "voxgraph/tools/visualization/loop_closure_visuals.h"
-#include "voxgraph/tools/visualization/submap_visuals.h"
+#include "common.h"
+#include "frontend/frame_names.h"
+#include "frontend/map_tracker/map_tracker.h"
+#include "frontend/measurement_processors/gps_processor.h"
+#include "frontend/measurement_processors/pointcloud_integrator.h"
+#include "frontend/pose_graph_interface/pose_graph_interface.h"
+#include "frontend/submap_collection/voxgraph_submap_collection.h"
+#include "tools/data_servers/loop_closure_edge_server.h"
+#include "tools/data_servers/projected_map_server.h"
+#include "tools/data_servers/submap_server.h"
+#include "tools/rosbag_helper.h"
+#include "tools/visualization/loop_closure_visuals.h"
+#include "tools/visualization/submap_visuals.h"
 
 namespace voxgraph {
 class VoxgraphMapper {

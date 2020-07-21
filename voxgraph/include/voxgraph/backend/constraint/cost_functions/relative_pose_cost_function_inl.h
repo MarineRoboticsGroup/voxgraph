@@ -1,7 +1,7 @@
 #ifndef VOXGRAPH_BACKEND_CONSTRAINT_COST_FUNCTIONS_RELATIVE_POSE_COST_FUNCTION_INL_H_
 #define VOXGRAPH_BACKEND_CONSTRAINT_COST_FUNCTIONS_RELATIVE_POSE_COST_FUNCTION_INL_H_
 
-#include "voxgraph/backend/local_parameterization/normalize_angle.h"
+#include "backend/local_parameterization/normalize_angle.h"
 
 namespace voxgraph {
 template <typename T>

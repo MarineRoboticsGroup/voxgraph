@@ -8,7 +8,7 @@
 
 #include <rosbag/bag.h>
 
-#include "voxgraph/frontend/submap_collection/voxgraph_submap_collection.h"
+#include "frontend/submap_collection/voxgraph_submap_collection.h"
 
 namespace voxgraph {
 namespace io {

@@ -6,37 +6,38 @@
 #include <vector>
 
 namespace voxgraph {
-template <typename ItemType>
-class WeightedSampler {
- public:
-  using ItemContainer = std::vector<ItemType>;
 
-  WeightedSampler() = default;
+  template <typename ItemType>
+  class WeightedSampler {
+    public:
+      using ItemContainer = std::vector<ItemType>;
 
-  void addItem(const ItemType& new_item, const double weight);
+      WeightedSampler() = default;
 
-  // Deterministically get the i-th item
-  inline const ItemType& operator[](int i) const { return items_[i]; }
+      void addItem(const ItemType& new_item, const double weight);
 
-  // Randomly draw an item with probability proportional to its weight
-  inline const ItemType& getRandomItem() const;
+      // Deterministically get the i-th item
+      inline const ItemType& operator[](int i) const { return items_[i]; }
 
-  size_t size() const { return items_.size(); }
+      // Randomly draw an item with probability proportional to its weight
+      inline const ItemType& getRandomItem() const;
 
-  void clear();
+      size_t size() const { return items_.size(); }
 
- private:
-  // Items and vector storing their cumulative probabilities
-  ItemContainer items_;
-  std::vector<double> cumulative_item_weights_;
+      void clear();
 
-  // Uniform random number generator
-  mutable std::mt19937 random_number_generator_;
-  mutable std::uniform_real_distribution<double> uniform_distribution_{0.0,
-                                                                       1.0};
-};
+  private:
+    // Items and vector storing their cumulative probabilities
+    ItemContainer items_;
+    std::vector<double> cumulative_item_weights_;
+
+    // Uniform random number generator
+    mutable std::mt19937 random_number_generator_;
+    mutable std::uniform_real_distribution<double> uniform_distribution_{0.0,
+                                                                         1.0};
+  };
 }  // namespace voxgraph
 
-#include "voxgraph/frontend/submap_collection/weighted_sampler_inl.h"
+#include "frontend/submap_collection/weighted_sampler_inl.h"
 
 #endif  // VOXGRAPH_FRONTEND_SUBMAP_COLLECTION_WEIGHTED_SAMPLER_H_

@@ -12,9 +12,9 @@
 #include <ros/ros.h>
 #include <voxblox/core/common.h>
 
-#include "voxgraph/common.h"
-#include "voxgraph/frontend/submap_collection/submap_timeline.h"
-#include "voxgraph/frontend/submap_collection/voxgraph_submap.h"
+#include "common.h"
+#include "frontend/submap_collection/submap_timeline.h"
+#include "frontend/submap_collection/voxgraph_submap.h"
 
 namespace voxgraph {
 class VoxgraphSubmapCollection

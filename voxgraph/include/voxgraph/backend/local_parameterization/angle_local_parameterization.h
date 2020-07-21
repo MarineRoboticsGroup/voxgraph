@@ -5,7 +5,7 @@
 
 #include <ceres/ceres.h>
 
-#include "voxgraph/backend/local_parameterization/normalize_angle.h"
+#include "backend/local_parameterization/normalize_angle.h"
 
 namespace voxgraph {
 // Define a local parameterization that keeps the angle within [-pi to pi) rad.

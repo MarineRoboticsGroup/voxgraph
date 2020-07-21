@@ -4,8 +4,8 @@
 #include <ceres/ceres.h>
 #include <ros/ros.h>
 
-#include "voxgraph/frontend/submap_collection/voxgraph_submap.h"
-#include "voxgraph/tools/visualization/cost_function_visuals.h"
+#include "frontend/submap_collection/voxgraph_submap.h"
+#include "tools/visualization/cost_function_visuals.h"
 
 namespace voxgraph {
 class RegistrationCostFunction : public ceres::CostFunction {

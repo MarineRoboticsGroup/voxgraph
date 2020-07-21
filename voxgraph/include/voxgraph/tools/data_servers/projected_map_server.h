@@ -3,8 +3,8 @@
 
 #include <cblox_msgs/MapHeader.h>
 
-#include "voxgraph/common.h"
-#include "voxgraph/frontend/submap_collection/voxgraph_submap_collection.h"
+#include "common.h"
+#include "frontend/submap_collection/voxgraph_submap_collection.h"
 
 namespace voxgraph {
 class ProjectedMapServer {

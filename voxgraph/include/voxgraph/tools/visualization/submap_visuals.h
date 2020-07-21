@@ -12,7 +12,7 @@
 #include <ros/ros.h>
 #include <voxblox_ros/mesh_vis.h>
 
-#include "voxgraph/frontend/submap_collection/voxgraph_submap_collection.h"
+#include "frontend/submap_collection/voxgraph_submap_collection.h"
 
 namespace voxgraph {
 class SubmapVisuals {

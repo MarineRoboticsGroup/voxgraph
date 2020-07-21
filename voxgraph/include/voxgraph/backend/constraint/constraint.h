@@ -5,7 +5,7 @@
 
 #include <ceres/ceres.h>
 
-#include "voxgraph/backend/node/node_collection.h"
+#include "backend/node/node_collection.h"
 
 namespace voxgraph {
 class Constraint {
@@ -28,7 +28,7 @@ class Constraint {
   virtual void addToProblem(const NodeCollection& node_collection,
                             ceres::Problem* problem) = 0;
 
-  const ceres::ResidualBlockId getResidualBlockId() {
+  ceres::ResidualBlockId getResidualBlockId() {
     return residual_block_id_;
   }
 

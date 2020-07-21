@@ -8,11 +8,11 @@
 #include <sensor_msgs/Imu.h>
 #include <voxblox_ros/transformer.h>
 
-#include "voxgraph/common.h"
-#include "voxgraph/frontend/frame_names.h"
-#include "voxgraph/frontend/map_tracker/transformers/odometry_transformer.h"
-#include "voxgraph/frontend/map_tracker/transformers/tf_transformer.h"
-#include "voxgraph/frontend/submap_collection/voxgraph_submap_collection.h"
+#include "common.h"
+#include "frontend/frame_names.h"
+#include "frontend/map_tracker/transformers/odometry_transformer.h"
+#include "frontend/map_tracker/transformers/tf_transformer.h"
+#include "frontend/submap_collection/voxgraph_submap_collection.h"
 
 namespace voxgraph {
 class MapTracker {

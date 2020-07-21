@@ -1,10 +1,10 @@
-#include "voxgraph/frontend/map_tracker/map_tracker.h"
+#include "frontend/map_tracker/map_tracker.h"
 
 #include <limits>
 #include <string>
 #include <utility>
 
-#include "voxgraph/tools/tf_helper.h"
+#include "tools/tf_helper.h"
 
 namespace voxgraph {
 MapTracker::MapTracker(VoxgraphSubmapCollection::ConstPtr submap_collection_ptr,

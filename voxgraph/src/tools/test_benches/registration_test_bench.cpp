@@ -13,10 +13,10 @@
 #include <voxblox_ros/ros_params.h>
 #include <boost/filesystem.hpp>
 
-#include "voxgraph/frontend/submap_collection/voxgraph_submap.h"
-#include "voxgraph/tools/submap_registration_helper.h"
-#include "voxgraph/tools/tf_helper.h"
-#include "voxgraph/tools/visualization/submap_visuals.h"
+#include "frontend/submap_collection/voxgraph_submap.h"
+#include "tools/submap_registration_helper.h"
+#include "tools/tf_helper.h"
+#include "tools/visualization/submap_visuals.h"
 
 int main(int argc, char** argv) {
   enum SolverReportStyle { kBrief, kFull, kNone };

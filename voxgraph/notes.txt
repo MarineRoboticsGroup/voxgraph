@@ -1,0 +1,16 @@
+[  4%] Building CXX object CMakeFiles/voxg-lib.dir/src/frontend/pose_graph_interface/pose_graph_interface.cpp.o
+[  4%] Building CXX object CMakeFiles/voxg-lib.dir/src/frontend/voxgraph_mapper.cpp.o
+[  7%] Building CXX object CMakeFiles/voxg-lib.dir/src/frontend/pose_graph_interface/node_templates.cpp.o
+[  9%] Building CXX object CMakeFiles/voxg-lib.dir/src/frontend/pose_graph_interface/measurement_templates.cpp.o
+[ 11%] Building CXX object CMakeFiles/voxg-lib.dir/src/frontend/measurement_processors/pointcloud_integrator.cpp.o
+[ 14%] Building CXX object CMakeFiles/voxg-lib.dir/src/frontend/submap_collection/submap_timeline.cpp.o
+[ 16%] Building CXX object CMakeFiles/voxg-lib.dir/src/frontend/submap_collection/voxgraph_submap.cpp.o
+CMakeFiles/voxg-lib.dir/build.make:140: recipe for target 'CMakeFiles/voxg-lib.dir/src/frontend/submap_collection/submap_timeline.cpp.o' failed
+CMakeFiles/voxg-lib.dir/build.make:88: recipe for target 'CMakeFiles/voxg-lib.dir/src/frontend/pose_graph_interface/node_templates.cpp.o' failed
+CMakeFiles/voxg-lib.dir/build.make:114: recipe for target 'CMakeFiles/voxg-lib.dir/src/frontend/measurement_processors/pointcloud_integrator.cpp.o' failed
+CMakeFiles/voxg-lib.dir/build.make:153: recipe for target 'CMakeFiles/voxg-lib.dir/src/frontend/submap_collection/voxgraph_submap.cpp.o' failed
+CMakeFiles/voxg-lib.dir/build.make:101: recipe for target 'CMakeFiles/voxg-lib.dir/src/frontend/pose_graph_interface/measurement_templates.cpp.o' failed
+CMakeFiles/voxg-lib.dir/build.make:75: recipe for target 'CMakeFiles/voxg-lib.dir/src/frontend/pose_graph_interface/pose_graph_interface.cpp.o' failed
+CMakeFiles/voxg-lib.dir/build.make:62: recipe for target 'CMakeFiles/voxg-lib.dir/src/frontend/voxgraph_mapper.cpp.o' failed
+CMakeFiles/Makefile2:1837: recipe for target 'CMakeFiles/voxg-lib.dir/all' failed
+Makefile:140: recipe for target 'all' failed

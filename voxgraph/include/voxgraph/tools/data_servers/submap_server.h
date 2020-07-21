@@ -6,10 +6,10 @@
 #include <cblox_msgs/MapHeader.h>
 #include <std_msgs/Header.h>
 
-#include "voxgraph/common.h"
-#include "voxgraph/frontend/frame_names.h"
-#include "voxgraph/frontend/submap_collection/voxgraph_submap.h"
-#include "voxgraph/frontend/submap_collection/voxgraph_submap_collection.h"
+#include "common.h"
+#include "frontend/frame_names.h"
+#include "frontend/submap_collection/voxgraph_submap.h"
+#include "frontend/submap_collection/voxgraph_submap_collection.h"
 
 namespace voxgraph {
 class SubmapServer {

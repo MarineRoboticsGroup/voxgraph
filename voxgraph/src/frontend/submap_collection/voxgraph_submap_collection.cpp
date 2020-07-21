@@ -1,10 +1,10 @@
-#include "voxgraph/frontend/submap_collection/voxgraph_submap_collection.h"
+#include "frontend/submap_collection/voxgraph_submap_collection.h"
 
 #include <math.h>
 
 #include <utility>
 
-#include "voxgraph/tools/tf_helper.h"
+#include "tools/tf_helper.h"
 
 namespace voxgraph {
 bool VoxgraphSubmapCollection::shouldCreateNewSubmap(

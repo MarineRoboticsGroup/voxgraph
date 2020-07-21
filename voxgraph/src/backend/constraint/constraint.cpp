@@ -1,4 +1,4 @@
-#include "voxgraph/backend/constraint/constraint.h"
+#include "backend/constraint/constraint.h"
 
 namespace voxgraph {
 Constraint::Constraint(Constraint::ConstraintId constraint_id,

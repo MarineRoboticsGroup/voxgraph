@@ -1,8 +1,8 @@
-#include "voxgraph/backend/node/node_collection.h"
+#include "backend/node/node_collection.h"
 
 #include <memory>
 
-#include "voxgraph/backend/local_parameterization/angle_local_parameterization.h"
+#include "backend/local_parameterization/angle_local_parameterization.h"
 
 namespace voxgraph {
 NodeCollection::NodeCollection() {

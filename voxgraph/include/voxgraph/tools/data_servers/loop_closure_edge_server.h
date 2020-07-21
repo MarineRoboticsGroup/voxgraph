@@ -1,10 +1,9 @@
 #ifndef VOXGRAPH_TOOLS_DATA_SERVERS_LOOP_CLOSURE_EDGE_SERVER_H_
 #define VOXGRAPH_TOOLS_DATA_SERVERS_LOOP_CLOSURE_EDGE_SERVER_H_
 
-#include <voxgraph/frontend/pose_graph_interface/pose_graph_interface.h>
+#include <frontend/pose_graph_interface/pose_graph_interface.h>
 #include <voxgraph_msgs/LoopClosureEdgeList.h>
-
-#include "voxgraph/frontend/submap_collection/voxgraph_submap_collection.h"
+#include "frontend/submap_collection/voxgraph_submap_collection.h"
 
 namespace voxgraph {
 class LoopClosureEdgeServer {
@@ -29,10 +28,11 @@ class LoopClosureEdgeServer {
       const ros::Publisher& loop_closure_edge_list_publisher,
       bool verbose = false);
 
+
  private:
   bool verbose_;
   static constexpr bool fake_6dof_transforms_ = true;
-  static constexpr double set_unknown_covariance_entries_to_ = 1e4;
+  double set_unknown_covariance_entries_to_ = 1e4;
 
   ros::Publisher loop_closure_edge_list_pub_;
 

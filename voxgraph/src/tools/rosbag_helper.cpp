@@ -1,4 +1,4 @@
-#include "voxgraph/tools/rosbag_helper.h"
+#include "tools/rosbag_helper.h"
 
 namespace voxgraph {
 RosbagHelper::RosbagHelper(ros::NodeHandle node_handle) {

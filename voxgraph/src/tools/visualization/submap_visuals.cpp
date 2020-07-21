@@ -1,4 +1,4 @@
-#include "voxgraph/tools/visualization/submap_visuals.h"
+#include "tools/visualization/submap_visuals.h"
 
 #include <memory>
 #include <string>

@@ -5,7 +5,7 @@
 
 #include <cblox/core/submap_collection.h>
 
-#include "voxgraph/frontend/submap_collection/voxgraph_submap.h"
+#include "frontend/submap_collection/voxgraph_submap.h"
 
 namespace voxgraph {
 using Transformation = voxblox::Transformation;

@@ -7,8 +7,8 @@
 #include <voxblox/integrator/tsdf_integrator.h>
 #include <voxblox/utils/color_maps.h>
 
-#include "voxgraph/common.h"
-#include "voxgraph/frontend/submap_collection/voxgraph_submap_collection.h"
+#include "common.h"
+#include "frontend/submap_collection/voxgraph_submap_collection.h"
 
 namespace voxgraph {
 class PointcloudIntegrator {

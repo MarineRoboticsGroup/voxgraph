@@ -1,12 +1,12 @@
-#include "voxgraph/backend/constraint/cost_functions/registration_cost_function.h"
+#include "backend/constraint/cost_functions/registration_cost_function.h"
 
 #include <utility>
 
 #include <minkindr_conversions/kindr_tf.h>
 #include <voxblox/interpolator/interpolator.h>
 
-#include "voxgraph/frontend/submap_collection/voxgraph_submap.h"
-#include "voxgraph/tools/tf_helper.h"
+#include "frontend/submap_collection/voxgraph_submap.h"
+#include "tools/tf_helper.h"
 
 namespace voxgraph {
 RegistrationCostFunction::RegistrationCostFunction(

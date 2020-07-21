@@ -1,7 +1,7 @@
 #ifndef VOXGRAPH_BACKEND_NODE_POSE_POSE_4D_H_
 #define VOXGRAPH_BACKEND_NODE_POSE_POSE_4D_H_
 
-#include "voxgraph/backend/node/pose/pose.h"
+#include "backend/node/pose/pose.h"
 
 namespace voxgraph {
 class Pose4D : public Pose {

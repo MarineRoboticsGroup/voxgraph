@@ -9,7 +9,7 @@
 #include <nav_msgs/Odometry.h>
 #include <ros/ros.h>
 
-#include "voxgraph/tools/odometry_simulator/normal_distribution.h"
+#include "tools/odometry_simulator/normal_distribution.h"
 
 namespace voxgraph {
 class OdometrySimulator {

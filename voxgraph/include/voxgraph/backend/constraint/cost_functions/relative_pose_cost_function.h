@@ -3,7 +3,7 @@
 
 #include <ceres/ceres.h>
 
-#include "voxgraph/backend/constraint/constraint.h"
+#include "backend/constraint/constraint.h"
 
 namespace voxgraph {
 class RelativePoseCostFunction {
@@ -45,6 +45,6 @@ class RelativePoseCostFunction {
 };
 }  // namespace voxgraph
 
-#include "voxgraph/backend/constraint/cost_functions/relative_pose_cost_function_inl.h"
+#include "backend/constraint/cost_functions/relative_pose_cost_function_inl.h"
 
 #endif  // VOXGRAPH_BACKEND_CONSTRAINT_COST_FUNCTIONS_RELATIVE_POSE_COST_FUNCTION_H_

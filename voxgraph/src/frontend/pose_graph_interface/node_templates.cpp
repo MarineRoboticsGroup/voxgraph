@@ -1,4 +1,4 @@
-#include "voxgraph/frontend/pose_graph_interface/node_templates.h"
+#include "frontend/pose_graph_interface/node_templates.h"
 
 namespace voxgraph {
 NodeTemplates::NodeTemplates()

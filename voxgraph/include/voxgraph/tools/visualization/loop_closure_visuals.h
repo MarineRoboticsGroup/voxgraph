@@ -5,7 +5,7 @@
 
 #include <visualization_msgs/Marker.h>
 
-#include "voxgraph/backend/pose_graph.h"
+#include "backend/pose_graph.h"
 
 namespace voxgraph {
 class LoopClosureVisuals {

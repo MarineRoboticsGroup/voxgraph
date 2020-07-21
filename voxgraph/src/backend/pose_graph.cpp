@@ -1,4 +1,4 @@
-#include "voxgraph/backend/pose_graph.h"
+#include "backend/pose_graph.h"
 
 #include <map>
 #include <memory>
@@ -6,7 +6,7 @@
 #include <utility>
 #include <vector>
 
-#include "voxgraph/backend/node/pose/pose.h"
+#include "backend/node/pose/pose.h"
 
 namespace voxgraph {
 void PoseGraph::addSubmapNode(const SubmapNode::Config& config) {

@@ -1,4 +1,4 @@
-#include "voxgraph/frontend/submap_collection/bounding_box.h"
+#include "frontend/submap_collection/bounding_box.h"
 
 #include <bitset>
 #include <memory>

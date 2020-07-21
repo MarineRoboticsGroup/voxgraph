@@ -3,7 +3,7 @@
 
 #include <memory>
 
-#include "voxgraph/backend/constraint/constraint.h"
+#include "backend/constraint/constraint.h"
 
 namespace voxgraph {
 class RelativePoseConstraint : public Constraint {

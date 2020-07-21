@@ -7,8 +7,8 @@
 #include <voxblox/utils/evaluation_utils.h>
 #include <voxblox_ros/ptcloud_vis.h>
 
-#include "voxgraph/frontend/submap_collection/voxgraph_submap_collection.h"
-#include "voxgraph/tools/visualization/submap_visuals.h"
+#include "frontend/submap_collection/voxgraph_submap_collection.h"
+#include "tools/visualization/submap_visuals.h"
 
 namespace voxgraph {
 class MapEvaluation {

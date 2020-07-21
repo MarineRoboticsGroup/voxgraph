@@ -1,4 +1,4 @@
-#include "voxgraph/frontend/submap_collection/submap_timeline.h"
+#include "frontend/submap_collection/submap_timeline.h"
 
 namespace voxgraph {
 void voxgraph::SubmapTimeline::addNextSubmap(

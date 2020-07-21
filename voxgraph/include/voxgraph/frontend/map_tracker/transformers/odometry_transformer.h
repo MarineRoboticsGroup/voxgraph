@@ -7,7 +7,7 @@
 #include <minkindr_conversions/kindr_msg.h>
 #include <nav_msgs/Odometry.h>
 
-#include "voxgraph/common.h"
+#include "common.h"
 
 namespace voxgraph {
 class OdometryTransformer {

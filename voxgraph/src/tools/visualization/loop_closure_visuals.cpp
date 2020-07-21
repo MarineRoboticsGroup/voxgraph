@@ -1,4 +1,4 @@
-#include "voxgraph/tools/visualization/loop_closure_visuals.h"
+#include "tools/visualization/loop_closure_visuals.h"
 
 #include <string>
 

@@ -4,9 +4,9 @@
 #include <memory>
 #include <utility>
 
-#include "voxgraph/backend/constraint/constraint.h"
-#include "voxgraph/backend/constraint/cost_functions/registration_cost_function.h"
-#include "voxgraph/frontend/submap_collection/voxgraph_submap.h"
+#include "backend/constraint/constraint.h"
+#include "backend/constraint/cost_functions/registration_cost_function.h"
+#include "frontend/submap_collection/voxgraph_submap.h"
 
 namespace voxgraph {
 class RegistrationConstraint : public Constraint {

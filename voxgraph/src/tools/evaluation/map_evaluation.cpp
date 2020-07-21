@@ -1,4 +1,4 @@
-#include "voxgraph/tools/evaluation/map_evaluation.h"
+#include "tools/evaluation/map_evaluation.h"
 
 #include <memory>
 #include <string>
@@ -7,7 +7,7 @@
 #include <ros/ros.h>
 #include <voxblox/io/layer_io.h>
 
-#include "voxgraph/backend/constraint/cost_functions/registration_cost_function.h"
+#include "backend/constraint/cost_functions/registration_cost_function.h"
 
 namespace voxgraph {
 MapEvaluation::MapEvaluation(const ros::NodeHandle& node_handle,

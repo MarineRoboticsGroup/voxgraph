@@ -1,4 +1,4 @@
-#include "voxgraph/frontend/measurement_processors/pointcloud_integrator.h"
+#include "frontend/measurement_processors/pointcloud_integrator.h"
 
 #include <string>
 #include <utility>

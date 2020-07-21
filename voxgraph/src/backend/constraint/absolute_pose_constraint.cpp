@@ -1,6 +1,6 @@
-#include "voxgraph/backend/constraint/absolute_pose_constraint.h"
+#include "backend/constraint/absolute_pose_constraint.h"
 
-#include "voxgraph/backend/constraint/cost_functions/relative_pose_cost_function.h"
+#include "backend/constraint/cost_functions/relative_pose_cost_function.h"
 
 namespace voxgraph {
 void AbsolutePoseConstraint::addToProblem(const NodeCollection& node_collection,

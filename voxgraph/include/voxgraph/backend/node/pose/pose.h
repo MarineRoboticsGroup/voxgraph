@@ -1,7 +1,7 @@
 #ifndef VOXGRAPH_BACKEND_NODE_POSE_POSE_H_
 #define VOXGRAPH_BACKEND_NODE_POSE_POSE_H_
 
-#include "voxgraph/common.h"
+#include "common.h"
 
 namespace voxgraph {
 class Pose {

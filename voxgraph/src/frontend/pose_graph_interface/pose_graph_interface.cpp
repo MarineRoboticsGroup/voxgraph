@@ -1,4 +1,4 @@
-#include "voxgraph/frontend/pose_graph_interface/pose_graph_interface.h"
+#include "frontend/pose_graph_interface/pose_graph_interface.h"
 
 #include <utility>
 #include <vector>

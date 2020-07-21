@@ -1,4 +1,4 @@
-#include "voxgraph/tools/data_servers/submap_server.h"
+#include "tools/data_servers/submap_server.h"
 
 #include <string>
 

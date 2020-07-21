@@ -8,9 +8,9 @@
 #include <cblox/core/tsdf_esdf_submap.h>
 #include <ros/ros.h>
 
-#include "voxgraph/frontend/submap_collection/bounding_box.h"
-#include "voxgraph/frontend/submap_collection/registration_point.h"
-#include "voxgraph/frontend/submap_collection/weighted_sampler.h"
+#include "frontend/submap_collection/bounding_box.h"
+#include "frontend/submap_collection/registration_point.h"
+#include "frontend/submap_collection/weighted_sampler.h"
 
 namespace voxgraph {
 class VoxgraphSubmap : public cblox::TsdfEsdfSubmap {

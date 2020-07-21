@@ -5,7 +5,7 @@
 
 #include <cblox/core/common.h>
 
-#include "voxgraph/backend/node/node.h"
+#include "backend/node/node.h"
 
 namespace voxgraph {
 class SubmapNode : public Node {
@@ -20,9 +20,9 @@ class SubmapNode : public Node {
   SubmapNode(const NodeId& node_id, const Config& config)
       : Node(node_id, config), config_(config) {}
 
-  const cblox::SubmapID getSubmapId() const { return config_.submap_id; }
+  cblox::SubmapID getSubmapId() const { return config_.submap_id; }
 
- private:
+private:
   Config config_;
 };
 }  // namespace voxgraph

@@ -4,8 +4,8 @@
 #include <map>
 #include <memory>
 
-#include "voxgraph/backend/node/reference_frame_node.h"
-#include "voxgraph/backend/node/submap_node.h"
+#include "backend/node/reference_frame_node.h"
+#include "backend/node/submap_node.h"
 
 namespace voxgraph {
 class NodeCollection {
@@ -31,7 +31,7 @@ class NodeCollection {
 
  private:
   Node::NodeId node_id_counter_ = 0;
-  const Node::NodeId newNodeId() { return node_id_counter_++; }
+  Node::NodeId newNodeId() { return node_id_counter_++; }
 
   SubmapNodeMap submap_nodes_;
   ReferenceFrameNodeMap reference_frame_nodes_;

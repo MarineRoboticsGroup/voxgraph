@@ -1,4 +1,4 @@
-#include "voxgraph/backend/node/pose/pose_4d.h"
+#include "backend/node/pose/pose_4d.h"
 
 namespace voxgraph {
 Pose4D::Pose4D(const Transformation& initial_pose) : Pose(initial_pose) {

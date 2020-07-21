@@ -1,4 +1,4 @@
-#include "voxgraph/tools/data_servers/projected_map_server.h"
+#include "tools/data_servers/projected_map_server.h"
 
 #include <cblox_msgs/MapLayer.h>
 #include <voxblox_ros/conversions.h>

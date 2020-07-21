@@ -7,9 +7,9 @@
 #include <utility>
 #include <vector>
 
-#include "voxgraph/backend/constraint/constraint_collection.h"
-#include "voxgraph/backend/node/node_collection.h"
-#include "voxgraph/common.h"
+#include "backend/constraint/constraint_collection.h"
+#include "backend/node/node_collection.h"
+#include "common.h"
 
 namespace voxgraph {
 class PoseGraph {

@@ -1,4 +1,4 @@
-#include "voxgraph/backend/constraint/constraint_collection.h"
+#include "backend/constraint/constraint_collection.h"
 
 namespace voxgraph {
 void ConstraintCollection::addConstraintsToProblem(

@@ -4,13 +4,13 @@
 #include <utility>
 #include <vector>
 
-#include "voxgraph/backend/pose_graph.h"
-#include "voxgraph/common.h"
-#include "voxgraph/frontend/pose_graph_interface/measurement_templates.h"
-#include "voxgraph/frontend/pose_graph_interface/node_templates.h"
-#include "voxgraph/frontend/submap_collection/voxgraph_submap_collection.h"
-#include "voxgraph/tools/visualization/pose_graph_visuals.h"
-#include "voxgraph/tools/visualization/submap_visuals.h"
+#include "backend/pose_graph.h"
+#include "common.h"
+#include "frontend/pose_graph_interface/measurement_templates.h"
+#include "frontend/pose_graph_interface/node_templates.h"
+#include "frontend/submap_collection/voxgraph_submap_collection.h"
+#include "tools/visualization/pose_graph_visuals.h"
+#include "tools/visualization/submap_visuals.h"
 
 namespace voxgraph {
 class PoseGraphInterface {

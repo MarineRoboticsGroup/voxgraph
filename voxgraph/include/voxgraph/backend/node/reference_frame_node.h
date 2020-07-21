@@ -3,7 +3,7 @@
 
 #include <memory>
 
-#include "voxgraph/backend/node/node.h"
+#include "backend/node/node.h"
 
 namespace voxgraph {
 class ReferenceFrameNode : public Node {
@@ -18,7 +18,7 @@ class ReferenceFrameNode : public Node {
   ReferenceFrameNode(const NodeId& node_id, const Config& config)
       : Node(node_id, config), config_(config) {}
 
-  const FrameId getReferenceFrameId() const {
+  FrameId getReferenceFrameId() const {
     return config_.reference_frame_id;
   }
 

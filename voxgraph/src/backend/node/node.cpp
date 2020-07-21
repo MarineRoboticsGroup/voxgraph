@@ -1,4 +1,4 @@
-#include "voxgraph/backend/node/node.h"
+#include "backend/node/node.h"
 
 namespace voxgraph {
 void Node::addToProblem(ceres::Problem* problem,

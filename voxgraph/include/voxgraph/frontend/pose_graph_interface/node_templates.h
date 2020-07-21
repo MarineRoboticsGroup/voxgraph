@@ -1,8 +1,8 @@
 #ifndef VOXGRAPH_FRONTEND_POSE_GRAPH_INTERFACE_NODE_TEMPLATES_H_
 #define VOXGRAPH_FRONTEND_POSE_GRAPH_INTERFACE_NODE_TEMPLATES_H_
 
-#include "voxgraph/backend/node/reference_frame_node.h"
-#include "voxgraph/backend/node/submap_node.h"
+#include "backend/node/reference_frame_node.h"
+#include "backend/node/submap_node.h"
 
 namespace voxgraph {
 class NodeTemplates {

@@ -5,7 +5,7 @@
 
 #include <ceres/ceres.h>
 #include <voxblox/core/common.h>
-#include <voxgraph/backend/node/pose/pose_4d.h>
+#include <backend/node/pose/pose_4d.h>
 
 namespace voxgraph {
 class Node {

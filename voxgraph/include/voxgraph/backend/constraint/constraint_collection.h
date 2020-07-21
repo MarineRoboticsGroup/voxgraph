@@ -3,9 +3,9 @@
 
 #include <list>
 
-#include "voxgraph/backend/constraint/absolute_pose_constraint.h"
-#include "voxgraph/backend/constraint/registration_constraint.h"
-#include "voxgraph/backend/constraint/relative_pose_constraint.h"
+#include "backend/constraint/absolute_pose_constraint.h"
+#include "backend/constraint/registration_constraint.h"
+#include "backend/constraint/relative_pose_constraint.h"
 
 namespace voxgraph {
 class ConstraintCollection {
@@ -28,7 +28,7 @@ class ConstraintCollection {
 
  private:
   Constraint::ConstraintId constraint_id_counter_ = 0;
-  const Constraint::ConstraintId newConstraintId() {
+  Constraint::ConstraintId newConstraintId() {
     return constraint_id_counter_++;
   }
 

@@ -1,4 +1,4 @@
-#include "voxgraph/tools/visualization/cost_function_visuals.h"
+#include "tools/visualization/cost_function_visuals.h"
 
 namespace voxgraph {
 CostFunctionVisuals::CostFunctionVisuals() {

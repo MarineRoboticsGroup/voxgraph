@@ -1,8 +1,8 @@
-#include "voxgraph/tools/data_servers/loop_closure_edge_server.h"
+#include "tools/data_servers/loop_closure_edge_server.h"
 
 #include <limits>
 
-#include "voxgraph/common.h"
+#include "common.h"
 
 namespace voxgraph {
 LoopClosureEdgeServer::LoopClosureEdgeServer(ros::NodeHandle nh_private,
@@ -78,7 +78,8 @@ void LoopClosureEdgeServer::publishLoopClosureEdges(
       PoseGraph::EdgeCovarianceMap::const_iterator covariance_iter =
           edge_covariance_map.find(overlapping_submap_pair);
       if (covariance_iter != edge_covariance_map.end()) {
-        edge_msg.T_A_B.covariance.fill(set_unknown_covariance_entries_to_);
+        // edge_msg.T_A_B.covariance.fill(set_unknown_covariance_entries_to_);
+        edge_msg.T_A_B.covariance.fill(1e4);
         for (int original_row = 0; original_row < 4; ++original_row) {
           for (int original_col = 0; original_col < 4; ++original_col) {
             int msg_row = original_row;

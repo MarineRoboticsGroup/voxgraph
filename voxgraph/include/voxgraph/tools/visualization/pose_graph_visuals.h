@@ -3,7 +3,7 @@
 
 #include <string>
 
-#include "voxgraph/backend/pose_graph.h"
+#include "backend/pose_graph.h"
 
 namespace voxgraph {
 class PoseGraphVisuals {

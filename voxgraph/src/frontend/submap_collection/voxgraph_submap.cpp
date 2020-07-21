@@ -1,4 +1,4 @@
-#include "voxgraph/frontend/submap_collection/voxgraph_submap.h"
+#include "frontend/submap_collection/voxgraph_submap.h"
 
 #include <memory>
 #include <utility>
