@@ -117,3 +117,18 @@ The frame convention used by voxgraph is shown on the right. The orange arrow co
 
 Setting the `output_odom_frame` to the same name as the `input_odom_frame`, and the `output_base_link_frame` to the same name as the `input_base_link_frame`, would give you a single connected tf tree as shown in the diagram.
 If you would rather keep the input and output tf trees disjoint, you could set different names for the `output_odom_frame` and/or `output_base_link_frame`. In this case voxgraph would automatically republish the odometry, using the new frame names you chose, each time it receives a pointcloud.
+
+
+## Common Installation Issues
+#### Error finding glog
+
+Make sure that you've installed glog
+``` bash
+sudo apt-get update -y
+sudo apt-get install -y libgoogle-glog-dev
+```
+
+if still having issues, make sure that `Findglog.cmake` is located at `voxgraph/voxgraph/cmake/Modules`
+
+
+
