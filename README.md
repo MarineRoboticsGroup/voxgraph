@@ -33,7 +33,7 @@ Next, clone this repository and its dependencies into your catkin workspace.
 If you have [SSH keys for GitHub](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) set up:
 ```shell script
 cd ~/catkin_ws/src
-git clone git@github.com:ethz-asl/voxgraph.git
+git clone git@github.com:MarineRoboticsGroup/voxgraph.git
 
 wstool merge ./voxgraph/voxgraph_ssh.rosinstall
 wstool update
@@ -44,12 +44,30 @@ wstool update
 
 ```shell script
 cd ~/catkin_ws/src/
-git clone https://github.com/ethz-asl/voxgraph.git
+git clone https://github.com/MarineRoboticsGroup/voxgraph.git
 
 wstool merge ./voxgraph/voxgraph_https.rosinstall
 wstool update
 ```
 </details>
+
+Install all other necessary ETHZ libraries
+```shell script
+cd ~/catkin_ws/src/
+
+git clone git@github.com:ethz-asl/minkindr.git
+git clone git@github.com:ethz-asl/glog_catkin.git
+git clone git@github.com:ethz-asl/gflags_catkin.git
+git clone git@github.com:ethz-asl/eigen_checks.git
+git clone git@github.com:ethz-asl/eigen_catkin.git
+git clone git@github.com:ethz-asl/voxblox.git
+git clone git@github.com:catkin/catkin_simple.git
+git clone git@github.com:ethz-asl/catkin_boost_python_buildtool.git
+git clone git@github.com:ethz-asl/numpy_eigen.git
+git clone git@github.com:ethz-asl/protobuf_catkin.git
+git clone git@github.com:ethz-asl/minkindr_ros.git
+sudo apt-get install libgoogle-glog-dev
+```
 
 Then compile voxgraph and its dependencies with:
 ```shell script
