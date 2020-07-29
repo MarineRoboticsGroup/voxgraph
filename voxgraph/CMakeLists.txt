@@ -155,6 +155,12 @@ set(VOXG_INCLUDE_DIRS
   ${CMAKE_CURRENT_SOURCE_DIR}/include/voxgraph/backend/constraint/cost_functions
   )
 
+catkin_package(
+  INCLUDE_DIRS ${VOXG_INCLUDE_DIRS}
+  LIBRARIES ${VOXG_SRCS} ${VOXG_HDRS}
+  CATKIN_DEPENDS roscpp
+  )
+
 add_library(voxg-lib STATIC
   ${VOXG_HDRS}
   ${VOXG_SRCS}
@@ -182,12 +188,6 @@ target_link_libraries(voxg-lib
   ${voxblox_ros_LIBRARIES}
   PRIVATE
   )
-
-# get_target_property(OUT voxg-lib INCLUDE_DIRECTORIES)
-message(STATUS "PRINTING")
-# message(STATUS ${voxblox_ros_INCLUDE_DIRS})
-# message(STATUS ${voxblox_ros_LIBRARIES})
-message(STATUS "PRINTING")
 
 ############
 # BINARIES #
