@@ -14,8 +14,10 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
 
 # set to debug mode if not specified
 if (NOT CMAKE_BUILD_TYPE)
-  set(CMAKE_BUILD_TYPE Debug)
+  set(CMAKE_BUILD_TYPE Release)
 endif()
+
+set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 # print compiler being used
 if ("${CMAKE_CXX_COMPILER_ID}" MATCHES "Clang")

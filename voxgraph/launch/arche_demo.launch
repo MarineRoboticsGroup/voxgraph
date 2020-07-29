@@ -6,7 +6,7 @@
   <arg name="pointcloud_topic" value="lidar_undistortion/pointcloud_corrected" />
   <arg name="rosbag_skip_first_n_sec" value="5" />
   <arg name="debug_mode" value="false" />
-  <arg name="show_rviz" value="true" />
+  <arg name="show_rviz" value="false" />
 
   <node pkg="tf" type="static_transform_publisher" name="os1_stuff" args="0 0 0 0 0 1 0 os1_sensor os1_lidar 100" />
   <include file="$(find lidar_undistortion)/launch/os1_undistortion.launch" />
